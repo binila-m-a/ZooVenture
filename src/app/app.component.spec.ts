@@ -1,11 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from 'src/shared/components/header/header.component';
+import { FooterComponent } from 'src/shared/components/footer/footer.component';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [RouterTestingModule],
-    declarations: [AppComponent]
+    declarations: [AppComponent,HeaderComponent,FooterComponent]
   }));
 
   it('should create the app', () => {
@@ -24,6 +26,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ZooVenture app is running!');
+    expect(compiled.querySelector('.zoo-container h1')?.textContent).toContain('Zoo Venture');
   });
 });

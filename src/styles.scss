@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
+
+/* styles.css */
+:root {
+    --primary-color: #8BC34A; /* Light Green */
+    --secondary-color: #FF5722; /* Deep Orange */
+    --accent-color: #4CAF50; /* Green */
+    --background-color: #FFFFFF; /* White */
+    --text-color: #333333; /* Dark Gray */
+    --link-color: #1565C0; /* Dark Blue */
+  }

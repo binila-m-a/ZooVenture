@@ -1,0 +1,17 @@
+[
+    {"slNo": 1, "name": "Simba", "animal": "Lions", "weight": 160},
+    {"slNo": 2, "name": "Nala", "animal": "Lions", "weight": 172},
+    {"slNo": 3, "name": "Mufasa", "animal": "Lions", "weight": 190},
+    {"slNo": 4, "name": "Hanna", "animal": "Giraffes", "weight": 200},
+    {"slNo": 5, "name": "Anna", "animal": "Giraffes", "weight": 202},
+    {"slNo": 6, "name": "Susanna", "animal": "Giraffes", "weight": 199},
+    {"slNo": 7, "name": "Dante", "animal": "Tigers", "weight": 150},
+    {"slNo": 8, "name": "Asimov", "animal": "Tigers", "weight": 142},
+    {"slNo": 9, "name": "Tolkien", "animal": "Tigers", "weight": 139},
+    {"slNo": 10, "name": "Chip", "animal": "Zebras", "weight": 100},
+    {"slNo": 11, "name": "Dale", "animal": "Zebras", "weight": 62},
+    {"slNo": 12, "name": "Pin", "animal": "Wolves", "weight": 78},
+    {"slNo": 13, "name": "Pon", "animal": "Wolves", "weight": 69},
+    {"slNo": 14, "name": "Anastasia", "animal": "Piranhas", "weight": 0.5}
+  ]
+  

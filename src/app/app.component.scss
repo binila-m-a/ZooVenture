@@ -1,0 +1,20 @@
+/* zoo.component.css */
+
+.zoo-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+}
+
+
+.main-content {
+  padding: 20px;
+}
+
+.featured-animal {
+  border: 1px solid var(--accent-color);
+  padding: 10px;
+  margin: 10px;
+}
+
+

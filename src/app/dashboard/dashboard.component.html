@@ -1,0 +1,28 @@
+
+<h2> Animal Expenses</h2>
+<input [(ngModel)]="searchKeyword" placeholder="Search" (input)="searchTable()">
+<button (click)="clearSearch()">Clear Search</button>
+
+<table>
+  <thead>
+    <tr>
+      <th (click)="sortTable('slNo')">Serial No <span *ngIf="columnSortingIndicators['slNo'] === 'asc'">&#9650;</span>
+        <span *ngIf="columnSortingIndicators['slNo'] === 'desc'">&#9660;</span></th>
+      <th (click)="sortTable('name')">Name</th>
+      <th (click)="sortTable('animal')">Animal</th>
+      <th (click)="sortTable('animalSpecies')">Animal Species</th>
+      <th (click)="sortTable('weight')">Weight</th>
+      <th (click)="sortTable('totalFoodCost')">Food Cost (SEK)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let animal of filteredAnimalData">
+      <td>{{ animal.slNo }}</td>
+      <td>{{ animal.name }}</td>
+      <td>{{ animal.animal }}</td>
+      <td>{{ animal.animalSpecies }}</td>
+      <td>{{ animal.weight }}</td>
+      <td>{{ animal.totalFoodCost }}</td>
+    </tr>
+  </tbody>
+</table>
